@@ -1,0 +1,112 @@
+.home{
+    background-image: url('/imagenes/body.jpg');
+    padding: 0 10px;
+}
+
+/*==== HEADER ====*/
+
+.home header img{
+    border-radius: 50%;
+    border:2px gray solid;
+    width: 180px;
+    display: block;
+    margin: 15px auto 30px;
+}
+
+.home header li{
+    width: 100%;
+    background-color: #444444;
+    border-bottom: 2px solid #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.home header li:last-child{
+    border-bottom: none;
+}
+
+.home header a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.home button{
+    display: block;
+    margin: 30px auto;
+    background-color:#444444;
+    border: none;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/*==== BANNER ====*/
+
+.home .banner img{
+    display: none;
+}
+
+
+/*==== PRODUCTS ====*/
+
+.home .products{
+    margin: 30px 0;
+
+}
+
+.home article{
+    position: relative;
+    width: 100%;
+}
+
+
+.home article img.label{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.home article a.zoom{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    padding: 5px 0;
+    top: 80px;
+    right: 0;
+}
+
+.home article a.more{ 
+    display: inline-block;
+    background-color: #444444;
+    width: 80px;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0; 
+    margin: 10px 0;
+} 
+
+.home article h4, p{
+    margin: 10px 0;
+}
+
+
+/*==== FOOTER ====*/
+
+.home footer li{
+    width: 100%;
+    background-color: #b92519;
+    border-bottom: 2px solid #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.home footer li:last-child{
+    border-bottom: none;
+}
+
+.home footer a{
+    color: #fff;
+    text-transform: uppercase;
+}
