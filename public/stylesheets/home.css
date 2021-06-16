@@ -55,15 +55,21 @@
 }
 
 .home article{
-    position: relative;
     width: 100%;
 }
 
+div.imagen{
+    position: relative;
+}
+
+.home article .foto{
+    width: 100%;
+}
 
 .home article img.label{
     position: absolute;
     top: 0;
-    right: 10px;
+    right: 0;
 }
 
 .home article a.zoom{
@@ -74,8 +80,8 @@
     position: absolute;
     width: 100%;
     padding: 5px 0;
-    top: 80px;
-    right: 0;
+    top: 45%;
+    left: 0;
 }
 
 .home article a.more{ 
@@ -109,4 +115,99 @@
 .home footer a{
     color: #fff;
     text-transform: uppercase;
+}
+
+@media (min-width:768px) {
+    /*==== HEADER ====*/
+    .home header button{
+        display: none;
+    }
+
+    .home  header nav{
+        text-align: center;
+    }
+
+    .home header li{
+        display: inline-block;
+        width: 16%;
+     
+    }
+  
+    
+    /*==== BANNER ====*/
+
+    .home .banner img{
+        display: inline-block;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+
+    /*==== PRODUCTS ====*/
+    .home .products{
+        text-align: center;
+    }
+    .home .imagen {
+        display: inline-block;
+    }
+    
+    .home  article {
+        display: inline-block;
+        width: 32.7%;
+        text-align: left;
+    }
+    
+}
+
+@media (min-width:1024px){
+    /*==== HEADER ====*/
+    
+    .home header li{
+        display: inline-block;
+        width: 16.3%;
+         
+    }
+
+    /*==== PRODUCTS ====*/
+    .home .products{
+        text-align: center;
+    }
+    .home .imagen {
+        width: 100%;
+    }
+    
+    .home  article {
+        display: inline-block;
+        width: 32.95%;
+        text-align: left;
+    }
+    /*==== FOOTER ====*/
+
+    .home footer {
+        text-align: center;
+        background-color: #b92519;
+        height: 50px;
+        padding: 50px 0 80px 0 ;
+        border-radius: 25px 25px 0 0;
+    }
+
+ 
+    .home footer li{
+        display: inline-block;
+        width: 10%;
+        border-right: 2px solid #fff;
+        padding: 1px 0 1px 0;
+        text-align: center;
+        background-color:none;
+        border-bottom: none;
+    }
+    .home footer li:last-child{
+        border-right: none;
+    }
+
+    .home footer a{
+        color: #fff;
+        text-transform: capitalize;
+        padding: 0;
+    }
 }
